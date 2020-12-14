@@ -6,7 +6,7 @@ function ajax_call(args) {
 		data = JSON.stringify( data );
 	}
 	$.ajax( {
-		url: 'mablor.ddns.net'+args.url,
+		url: 'https://mablor.ddns.net'+args.url,
 		type: method,
 		beforeSend: function() {
 			if ( args.element ) {
