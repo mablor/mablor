@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>mablor</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/cerulean/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../assets/css/user.css">
+    <link rel="stylesheet" href="../assets/css/Navigation-with-Button.css">
+</head>
+
+<body>
+    <div id="teclado" style="height:auto;vertical-align:baseline;padding:5px;">
+        <div class="table-responsive noBorder">
+            <table class="table">
+                <thead>
+                    <tr></tr>
+                </thead>
+                <tbody>
+                    <tr class="noBorder" style="width:315px;">
+                        <td style="width:50px;">
+                            <div class="tableCell" style="text-align:right;"><span class="label label-default" style="font-size:15px;width:100%;">Fecha:</span></div>
+                        </td>
+                        <td>
+                            <div class="tableCell"><input type="date" id="fecha" style="width:220px;"></div>
+                        </td>
+                    </tr>
+                    <tr class="noBorder" style="width:315px;">
+                        <td>
+                            <div class="tableCell" style="text-align:right;"><span class="label label-default" style="font-size:15px;width:90px;text-align:right;">Inporte:</span></div>
+                        </td>
+                        <td>
+                            <div class="tableCell"><input type="text" id="iimporte" style="font-size:18;font-weight:bold;width:220px;text-align:right;"></div>
+                        </td>
+                    </tr>
+                    <tr style="width:315px;">
+                        <td>
+                            <div class="tableCell" style="text-align:right;"><span class="label label-default" style="font-size:15px;width:90px;text-align:right;">De:</span></div>
+                        </td>
+                        <td>
+                            <div class="tableCell"><select id="sde" style="width:220px;"><optgroup label="This is a group"><option value="12" selected="">This is item 1</option><option value="13">This is item 2</option><option value="14">This is item 3</option></optgroup></select></div>
+                        </td>
+                    </tr>
+                    <tr style="width:315px;">
+                        <td>
+                            <div class="tableCell" style="text-align:right;"><span class="label label-default" style="font-size:15px;width:90px;text-align:right;">A:</span></div>
+                        </td>
+                        <td>
+                            <div class="tableCell"><select id="sa" style="width:220px;"><optgroup label="This is a group"><option value="12" selected="">This is item 1</option><option value="13">This is item 2</option><option value="14">This is item 3</option></optgroup></select></div>
+                        </td>
+                    </tr>
+                    <tr style="width:315px;">
+                        <td>
+                            <div class="tableCell" style="text-align:right;"><span class="label label-default" style="font-size:15px;width:100%;">Desc.:</span></div>
+                        </td>
+                        <td>
+                            <div class="tableCell"><input type="text" id="idetalle" style="font-size:18;font-weight:bold;width:220px;"></div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="table-responsive noBorder">
+            <table class="table">
+                <thead>
+                    <tr></tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td rowspan="2" style="width:135px;padding:0px;">
+                            <div class="tableCell" style="text-align:right;width:135px;"><button class="btn btn-default buttonNumber" type="button" id="b1">1</button><button class="btn btn-default buttonNumber" type="button" id="b2">2</button><button class="btn btn-default buttonNumber" type="button" id="b3">3</button></div>
+                        </td>
+                        <td style="padding:0px;">
+                            <div class="tableCell" style="width:180px;"><button class="btn btn-default buttonNumber buttonDouble" type="button" id="d1">Ah</button><button class="btn btn-default buttonNumber buttonDouble" type="button" id="d2"></button></div>
+                        </td>
+                    </tr>
+                    <tr style="width:300px;">
+                        <td style="padding:0px;">
+                            <div class="tableCell" style="width:180px;"><button class="btn btn-default buttonNumber buttonDouble" type="button" id="d3">Action</button><button class="btn btn-default buttonNumber buttonDouble" type="button" id="d4"></button></div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td rowspan="2" style="width:135px;padding:0px;">
+                            <div class="tableCell" style="text-align:right;width:135px;"><button class="btn btn-default buttonNumber" type="button" id="b4">4</button><button class="btn btn-default buttonNumber" type="button" id="b5">5</button><button class="btn btn-default buttonNumber" type="button" id="b6">6</button></div>
+                        </td>
+                        <td style="padding:0px;">
+                            <div class="tableCell" style="width:180px;"><button class="btn btn-default buttonNumber buttonDouble" type="button" id="d5"></button><button class="btn btn-default buttonNumber buttonDouble" type="button" id="d6"></button></div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="padding:0px;">
+                            <div class="tableCell" style="width:180px;"><button class="btn btn-default buttonNumber buttonDouble" type="button" id="d7"></button><button class="btn btn-default buttonNumber buttonDouble" type="button" id="d8"></button></div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td rowspan="2" style="width:135px;padding:0px;">
+                            <div class="tableCell" style="text-align:right;width:135px;"><button class="btn btn-default buttonNumber" type="button" id="b7">7</button><button class="btn btn-default buttonNumber" type="button" id="b8">8</button><button class="btn btn-default buttonNumber" type="button" id="b9">9</button></div>
+                        </td>
+                        <td style="padding:0px;">
+                            <div class="tableCell" style="width:180px;"><button class="btn btn-default buttonNumber buttonDouble" type="button" id="d9"></button><button class="btn btn-default buttonNumber buttonDouble" type="button" id="d10"></button></div>
+                        </td>
+                    </tr>
+                    <tr style="width:315px;">
+                        <td style="padding:0px;">
+                            <div class="tableCell" style="width:180px;"><button class="btn btn-default buttonNumber buttonDouble" type="button" id="d11"></button><button class="btn btn-default buttonNumber buttonDouble" type="button" id="d12"></button></div>
+                        </td>
+                    </tr>
+                    <tr style="width:315px;">
+                        <td rowspan="2" style="width:135px;padding:0px;">
+                            <div class="tableCell" style="text-align:right;width:135px;"><button class="btn btn-default buttonNumber" type="button" id="bpoint">.</button><button class="btn btn-default buttonNumber" type="button" id="b0">0</button><button class="btn btn-default buttonNumber" type="button" id="bdelete">&lt;&lt;</button></div>
+                        </td>
+                        <td style="padding:0px;">
+                            <div class="tableCell" style="width:180px;"><button class="btn btn-default buttonNumber buttonDouble" type="button" id="d13"></button><button class="btn btn-default buttonNumber buttonDouble" type="button" id="d14"></button></div>
+                        </td>
+                    </tr>
+                    <tr style="width:315px;">
+                        <td style="padding:0px;">
+                            <div class="tableCell" style="width:180px;"><button class="btn btn-default buttonNumber buttonDouble" type="button" id="d15"></button><button class="btn btn-default buttonNumber buttonDouble" type="button" id="d16"></button></div>
+                        </td>
+                    </tr>
+                    <tr style="width:315px;">
+                        <td rowspan="2" style="width:135px;padding:0px;">
+                            <div class="tableCell" style="text-align:right;width:135px;"><button class="btn btn-default buttonNumber buttonTriple" type="button" id="bsave">Save</button></div>
+                        </td>
+                        <td style="padding:0px;">
+                            <div class="tableCell" style="width:180px;"><button class="btn btn-default buttonNumber buttonDouble" type="button" id="d17"></button><button class="btn btn-default buttonNumber buttonDouble" type="button" id="d18"></button></div>
+                        </td>
+                    </tr>
+                    <tr style="width:315px;">
+                        <td style="padding:0px;">
+                            <div class="tableCell" style="width:180px;"><button class="btn btn-default buttonNumber buttonDouble" type="button" id="d19"></button><button class="btn btn-default buttonNumber buttonDouble" type="button" id="d20"></button></div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="ajax.js"></script>
+    <script src="menu.js"></script>
+    <script src="caja.js"></script>
+</body>
+
+</html>
