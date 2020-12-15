@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/react-mablor/static/css/main.49c80ad3.chunk.css",
+    "main.js": "/react-mablor/static/js/main.2db47733.chunk.js",
+    "main.js.map": "/react-mablor/static/js/main.2db47733.chunk.js.map",
+    "runtime-main.js": "/react-mablor/static/js/runtime-main.b8180a5d.js",
+    "runtime-main.js.map": "/react-mablor/static/js/runtime-main.b8180a5d.js.map",
+    "static/css/2.2a86faee.chunk.css": "/react-mablor/static/css/2.2a86faee.chunk.css",
+    "static/js/2.3821f2ae.chunk.js": "/react-mablor/static/js/2.3821f2ae.chunk.js",
+    "static/js/2.3821f2ae.chunk.js.map": "/react-mablor/static/js/2.3821f2ae.chunk.js.map",
+    "index.html": "/react-mablor/index.html",
+    "precache-manifest.04f77fdf2691242b80f1581b30810f31.js": "/react-mablor/precache-manifest.04f77fdf2691242b80f1581b30810f31.js",
+    "service-worker.js": "/react-mablor/service-worker.js",
+    "static/css/2.2a86faee.chunk.css.map": "/react-mablor/static/css/2.2a86faee.chunk.css.map",
+    "static/css/main.49c80ad3.chunk.css.map": "/react-mablor/static/css/main.49c80ad3.chunk.css.map",
+    "static/js/2.3821f2ae.chunk.js.LICENSE.txt": "/react-mablor/static/js/2.3821f2ae.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b8180a5d.js",
+    "static/css/2.2a86faee.chunk.css",
+    "static/js/2.3821f2ae.chunk.js",
+    "static/css/main.49c80ad3.chunk.css",
+    "static/js/main.2db47733.chunk.js"
+  ]
+}
